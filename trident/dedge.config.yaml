@@ -18,7 +18,9 @@ environment:
   REPORT_GAS: "true" 
   TENDERLY_PROJECT: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
   TENDERLY_USERNAME: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+  CODE_COVERAGE: "true"
 
 tasks:
   install-dependencies:
+    - git init
     - yarn install
