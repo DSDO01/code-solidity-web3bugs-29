@@ -1,0 +1,24 @@
+config:
+  framework: "hardhat" 
+  framework_version: "^2.0.0" 
+  node_version: "20" 
+  package_manager: "yarn"
+
+environment:
+  ALCHEMY_API_KEY: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+  COINMARKETCAP_API_KEY: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+  ETHERSCAN_API_KEY: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+  FORKING: "false"
+  HARDHAT_NETWORK: "hardhat"
+  HARDHAT_MAX_MEMORY: "4096"
+  HARDHAT_SHOW_STACK_TRACES: "true"
+  HARDHAT_VERBOSE: "true"
+  INFURA_API_KEY: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+  MNEMONIC: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+  REPORT_GAS: "true" 
+  TENDERLY_PROJECT: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+  TENDERLY_USERNAME: "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122"
+
+tasks:
+  install-dependencies:
+    - yarn install
